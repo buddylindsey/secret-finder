@@ -98,3 +98,12 @@ If you are using aws and wanting to test locally with different profile. Here is
 ```
 $ AWS_PROFILE=somprofile AWS_DEFAULT_REGION=us-east-2 ipython
 ```
+
+## Release
+
+```
+pip install twine wheel setuptools
+python setup.py sdist bdist_wheel
+twine check dist/*
+twine upload dist/*
+```
