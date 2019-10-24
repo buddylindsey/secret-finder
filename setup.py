@@ -23,12 +23,11 @@ if __name__ == "__main__":
         name=PACKAGE_NAME,
         version=VERSION,
         author='Buddy Lindsey',
-        url='https://github.com/buddylindsey/secret-finder'
+        url='https://github.com/buddylindsey/secret-finder',
         packages=find_packages(),
         install_requires=parse_requirements("requirements/base.txt"),
-        python_requires=">=3.7",
         scripts=[],
-        description="Get your secerts from many providers",
+        description="Get your hard won secrets, simply",
         long_description=long_description,
         long_description_content_type="text/markdown",
         python_requires=">=3.7",
@@ -36,7 +35,7 @@ if __name__ == "__main__":
             'Development Status :: 3 - Alpha',
             'Intended Audience :: Developers',
             'Natural Language :: English',
-            'License :: OSI Approved :: MIT License'
+            'License :: OSI Approved :: MIT License',
             'Programming Language :: Python',
             'Programming Language :: Python :: 3',
             'Programming Language :: Python :: 3.7',

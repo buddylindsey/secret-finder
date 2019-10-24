@@ -6,6 +6,11 @@ Pulling from these locations can be frustrating if you have 2 or 3 in one app fo
 
 Secret finder provides you a way to have a single unified api to pull from any number of locations.
 
+## Install
+
+```
+pip install secretfinder
+```
 
 ## Examples
 
